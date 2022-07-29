@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="single-product-img">
-                    <img src="{{asset('assets/img/products/product-img-5.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/products/fruit_5.jpg')}}" alt="">
                 </div>
             </div>
             <div class="col-md-7">
@@ -62,7 +62,7 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="{{asset('assets/img/products/product-img-1.jpg')}}" alt=""></a>
+                        <a href="single-product.html"><img src="{{asset('assets/img/products/fruit_1.jpg')}}" alt=""></a>
                     </div>
                     <h3>Strawberry</h3>
                     <p class="product-price"><span>Per Kg</span> 85$ </p>
@@ -72,7 +72,7 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="{{asset('assets/img/products/product-img-2.jpg')}}" alt=""></a>
+                        <a href="single-product.html"><img src="{{asset('assets/img/products/fruit_2.jpg')}}" alt=""></a>
                     </div>
                     <h3>Berry</h3>
                     <p class="product-price"><span>Per Kg</span> 70$ </p>
@@ -82,7 +82,7 @@
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="{{asset('assets/img/products/product-img-3.jpg')}}" alt=""></a>
+                        <a href="single-product.html"><img src="{{asset('assets/img/products/fruit_3.jpg')}}" alt=""></a>
                     </div>
                     <h3>Lemon</h3>
                     <p class="product-price"><span>Per Kg</span> 35$ </p>

@@ -80,7 +80,7 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="/product"><img src="assets/img/products/product-img-1.jpg"
+                        <a href="/product"><img src="assets/img/products/fruit_1.jpg"
                                 alt=""></a>
                     </div>
                     <h3>Strawberry</h3>
@@ -91,7 +91,7 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="/product"><img src="assets/img/products/product-img-2.jpg"
+                        <a href="/product"><img src="assets/img/products/fruit_2.jpg"
                                 alt=""></a>
                     </div>
                     <h3>Berry</h3>
@@ -102,7 +102,7 @@
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="assets/img/products/product-img-3.jpg"
+                        <a href="single-product.html"><img src="assets/img/products/fruit_3.jpg"
                                 alt=""></a>
                     </div>
                     <h3>Lemon</h3>
@@ -243,7 +243,7 @@
                         interdum velit. Nam eu molestie lorem.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat
                         veritatis minus, et labore minima mollitia qui ducimus.</p>
-                    <a href="about.html" class="boxed-btn mt-4">know more</a>
+                    <a href="/about" class="boxed-btn mt-4">know more</a>
                 </div>
             </div>
         </div>
