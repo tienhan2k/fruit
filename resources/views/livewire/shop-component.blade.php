@@ -36,11 +36,13 @@
             <div class="col-lg-4 col-md-6 text-center strawberry">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="/product" title="{{$product->name}}"><img src="{{asset('assets/img/products')}}/{{$product->image}}" alt="{{$product->name}}"></a>
+                        <a href="{{route('product.details', ['slug'=>$product->slug])}}" title="{{$product->name}}">
+                            <img src="{{asset('assets/img/products')}}/{{$product->image}}" alt="{{$product->name}}">
+                        </a>
                     </div>
                     <h3>{{$product->name}}</h3>
                     <p class="product-price"><span>Per Kg</span> {{$product->regular_price}}$ </p>
-                    <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    <a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
             @endforeach

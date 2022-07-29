@@ -37,7 +37,7 @@ Route::get('/checkout', CheckoutComponent::class);
 
 Route::get('/contact', ContactComponent::class);
 
-Route::get('/product', ProductDetailsComponent::class);
+Route::get('/product/{slug}', ProductDetailsComponent::class)->name('product.details');
 
 Route::get('/about', AboutComponent::class);
 
