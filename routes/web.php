@@ -9,6 +9,8 @@ use App\Http\Livewire\AboutComponent;
 use App\Http\Livewire\ProductDetailsComponent;
 use App\Http\Livewire\NewsComponent;
 use App\Http\Livewire\ContactComponent;
+use App\Http\Livewire\Admin\AdminDashboardComponent;
+use App\Http\Livewire\User\UserDashboardComponent;
 
 use Illuminate\Support\Facades\Route;
 
@@ -42,3 +44,20 @@ Route::get('/about', AboutComponent::class);
 Route::get('/news', NewsComponent::class);
 
 Route::get('/new-details', NewDetailComponent::class);
+
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified'
+// ])->group(function () {
+//     Route::get('/dashboard', function () {
+//         return view('dashboard');
+//     })->name('dashboard');
+// });
+
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::get('/user/dashboard', UserDashboardComponent::class)->name('user.dashboard');
+});
+Route::middleware(['auth:sanctum', 'verified', 'authadmin'])->group(function () {
+    Route::get('/admin/dashboard', AdminDashboardComponent::class)->name('admin.dashboard');
+});

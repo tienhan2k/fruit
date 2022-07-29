@@ -8,8 +8,8 @@
                         <p class="subtitle">Fresh & Organic</p>
                         <h1>Delicious Seasonal Fruits</h1>
                         <div class="hero-btns">
-                            <a href="shop.html" class="boxed-btn">Fruit Collection</a>
-                            <a href="contact.html" class="bordered-btn">Contact Us</a>
+                            <a href="/shop" class="boxed-btn">Fruit Collection</a>
+                            <a href="/contact" class="bordered-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -80,23 +80,23 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="assets/img/products/product-img-1.jpg"
+                        <a href="/product"><img src="assets/img/products/product-img-1.jpg"
                                 alt=""></a>
                     </div>
                     <h3>Strawberry</h3>
                     <p class="product-price"><span>Per Kg</span> 85$ </p>
-                    <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    <a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
-                        <a href="single-product.html"><img src="assets/img/products/product-img-2.jpg"
+                        <a href="/product"><img src="assets/img/products/product-img-2.jpg"
                                 alt=""></a>
                     </div>
                     <h3>Berry</h3>
                     <p class="product-price"><span>Per Kg</span> 70$ </p>
-                    <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    <a href="/cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
